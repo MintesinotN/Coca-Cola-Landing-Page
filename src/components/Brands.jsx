@@ -79,7 +79,7 @@ function Brands() {
         {(showAll ? brands : brands.slice(0, 9)).map((brand, index) => (
           <div
             key={index}
-            className="sm:h-48 sm:w-48 h-32 w-32 bg-white rounded-lg overflow-hidden shadow-md flex items-center justify-center p-4"
+            className="sm:h-48 sm:w-48 h-40 w-40 bg-white rounded-lg overflow-hidden shadow-md flex items-center justify-center p-4"
           >
             <img
               src={brand.imageUrl}
